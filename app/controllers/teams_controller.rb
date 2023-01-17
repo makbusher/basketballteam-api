@@ -17,4 +17,9 @@ class TeamsController < ApplicationController
       render json: { errors: team.errors.full_messages }, status: :bad_request
     end
   end
+
+  def show
+    team = Team.find_by(id: params[:id])
+    render json: team
+  end
 end

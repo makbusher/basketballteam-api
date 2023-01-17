@@ -3,3 +3,6 @@ GET http://localhost:3000/teams.json
 
 ### create team
 POST http://localhost:3000/teams.json
+
+### teams show
+GET http://localhost:3000/teams/1.json
