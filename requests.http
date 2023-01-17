@@ -6,3 +6,11 @@ POST http://localhost:3000/teams.json
 
 ### teams show
 GET http://localhost:3000/teams/1.json
+
+### teams update
+PATCH http://localhost:3000/teams/1.json
+Content-Type: application/json
+
+{
+  "name": "Chicago Bulls"
+}
