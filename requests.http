@@ -8,9 +8,9 @@ POST http://localhost:3000/teams.json
 GET http://localhost:3000/teams/1.json
 
 ### teams update
-PATCH http://localhost:3000/teams/1.json
+PATCH http://localhost:3000/teams/2.json
 Content-Type: application/json
 
 {
-  "name": "Chicago Bulls"
+  "name": "New York Knicks"
 }
